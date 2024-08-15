@@ -12,16 +12,8 @@ def main():
     st.title("Apriori Faturamento:")
     st.logo("external/Logo.png")
 
-
-
     # Nome do arquivo Excel
     excel_leandro = "planilhas/Planilha de Faturamento - Leandro.xlsx"
-    excel_flavio = "planilhas/Planilha de Faturamento - Flavio.xlsx"
-    excel_kalley = "planilhas/Planilha de Faturamento - Kalley.xlsx"
-    excel_mari = "planilhas/Planilha de Faturamento - Mari.xlsx"
-    excel_carolina = "planilhas/Planilha de Faturamento - Carolina.xlsx"
-    excel_josianne = "planilhas/Planilha de Faturamento - Josianne.xlsx"
-    excel_rita = "planilhas/Planilha de Faturamento - Rita.xlsx"
 
     # Ler todas as planilhas a partir da linha 8
     file = pd.read_excel(excel_leandro, sheet_name=None, skiprows=7)
