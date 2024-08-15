@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd 
+import openpyxl
 import plotly.graph_objects as go
 
 #---------Código de Inicialização---------#
